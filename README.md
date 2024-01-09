@@ -1,4 +1,4 @@
-# Slick Portfolio With Svelte.
+<!-- # Slick Portfolio With Svelte.
 
 Vercel-like style portfolio template for developers.
 
@@ -17,4 +17,4 @@ Before deploying to `GitHub Pages`:
 
 ## Known issues:
 
-- Svelte no longer support `node 14`, use a newer version instead.
+- Svelte no longer support `node 14`, use a newer version instead. -->
