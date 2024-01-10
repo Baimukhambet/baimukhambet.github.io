@@ -18,7 +18,33 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023, 6, 1)
 		},
 		skills: getSkills('swift'),
-		type: 'iOS App'
+		type: 'iOS App',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+			{
+				label: 'screen 1',
+				src: `${base}/loadScreen.png`
+			},
+		]
 	},
 	{
 		slug: 'slick-portfolio-notes-pro',

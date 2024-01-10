@@ -88,10 +88,27 @@
 					<div
 						class="px-10px grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-t-10 "
 					>
-						{#each screenshots as item}
+						<!-- {#each screenshots as item}
 							<div class="col-center gap-3 overflow-hidden w-100% h-100% rounded-10px">
 								<img class="aspect-video w-100%" src={item.src} alt={item.label} />
 								<p class="text-[var(--tertiary-text)] font-300">{item.label}</p>
+							</div>
+						{/each} -->
+						{#each screenshots as item}
+							<div
+								class="col-center gap-3 overflow-hidden relative"
+								style="width: 100%; height: 0; padding-bottom: 150%; /* Adjust the padding-bottom for the desired aspect ratio */"
+							>
+								<img
+									class="absolute inset-0 w-full h-full object-contain"
+									src={item.src}
+									alt={item.label}
+								/>
+								<p
+									class="text-black font-300 absolute bottom-0 left-0 right-0 bg-[var(--primary-bg)] text-[var(--primary-text)] p-2 text-center"
+								>
+									{item.label}
+								</p>
 							</div>
 						{/each}
 					</div>
