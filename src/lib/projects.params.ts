@@ -5,7 +5,7 @@ import { base } from '$app/paths';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-prompter-ai',
+		slug: 'portfolio-prompter-ai',
 		color: '#5e95e3',
 		description:
 			'Application for enhancing prompts for AI',
@@ -18,36 +18,10 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023, 6, 1)
 		},
 		skills: getSkills('swift'),
-		type: 'iOS App',
-		screenshots: [
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-			{
-				label: 'screen 1',
-				src: `${base}/loadScreen.png`
-			},
-		]
+		type: 'iOS App'
 	},
 	{
-		slug: 'slick-portfolio-notes-pro',
+		slug: 'portfolio-notes-pro',
 		color: '#5e95e3',
 		description:
 			'Notes app with fancy design. Stack: UIKit, Swift, CoreData, programmatic UI',
@@ -60,10 +34,48 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date(2023, 7, 1)
 		},
 		skills: getSkills('swift'),
-		type: 'iOS App'
+		type: 'iOS App',
+		screenshots: [
+			{
+				label: 'Load Screen',
+				src: `${base}/screenshots/notes-pro/main.png`
+			},
+			{
+				label: 'Menu',
+				src: `${base}/screenshots/notes-pro/tags.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/create.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/create2.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/created.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/folders.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/create-folder.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/folders2.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/notes-pro/notes.png`
+			},
+		]
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'portfolio-machikoro',
 		color: '#ff3e00',
 		description:
 			'Mobile version of a table game \'Machikoro\'',
@@ -77,6 +89,36 @@ const MY_PROJECTS: Array<Project> = [
 		},
 		skills: getSkills('swift', 'firebase'),
 		type: 'iOS Online Game',
+		screenshots: [
+			{
+				label: 'Load Screen',
+				src: `${base}/screenshots/machikoro/loadScreen.png`
+			},
+			{
+				label: 'Menu',
+				src: `${base}/screenshots/machikoro/menu.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/machikoro/createRoom.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/machikoro/joinRoom.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/machikoro/throw.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/machikoro/info.png`
+			},
+			{
+				label: '',
+				src: `${base}/screenshots/machikoro/store.png`
+			},
+		]
 	}
 ];
 
