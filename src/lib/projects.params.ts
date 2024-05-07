@@ -119,7 +119,23 @@ const MY_PROJECTS: Array<Project> = [
 				src: `${base}/screenshots/machikoro/store.png`
 			},
 		]
-	}
+	},
+	{
+		slug: 'portfolio-recipeapp',
+		color: '#5e95e3',
+		description:
+			'iOS Application for recipes, where I integrated Youtube videoplayer and used open-source recipe API to make network calls',
+		shortDescription:
+			'iOS Application for recipes',
+		links: [{ to: 'https://github.com/Baimukhambet/iOS-RecipeApp', label: 'GitHub' }],
+		logo: Assets.Unknown,
+		name: 'RecipeApp',
+		period: {
+			from: new Date(2024, 4, 1)
+		},
+		skills: getSkills('swift'),
+		type: 'iOS App'
+	},
 ];
 
 export default MY_PROJECTS;

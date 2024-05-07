@@ -9,7 +9,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'Kazakh-British Technical University',
-		period: { from: new Date(2021, 9, 1), to: new Date() },
+		period: { from: new Date(2020, 9, 1), to: new Date() },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['C++', 'Swift', 'Computer Networks', 'Algorithms/Data Structures', 'OOP', 'Algebra', 'Python', 'Java', 'English']
