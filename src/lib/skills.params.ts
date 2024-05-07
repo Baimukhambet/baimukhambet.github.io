@@ -17,6 +17,22 @@ const MY_SKILLS = [
 		name: 'Swift'
 	}),
 	s({
+		slug: 'dart',
+		color: 'cyan',
+		description:
+			'',
+		logo: Assets.Dart,
+		name: 'Dart'
+	}),
+	s({
+		slug: 'flutter',
+		color: 'cyan',
+		description:
+			'',
+		logo: Assets.Flutter,
+		name: 'Flutter'
+	}),
+	s({
 		slug: 'cpp',
 		color: 'cyan',
 		description:
@@ -55,39 +71,6 @@ const MY_SKILLS = [
 			'',
 		logo: Assets.Firebase,
 		name: 'Firebase'
-	}),
-
-	s({
-		slug: 'js',
-		color: 'yellow',
-		description:
-			'',
-		logo: Assets.JavaScript,
-		name: 'Javascript'
-	}),
-	s({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'',
-		logo: Assets.TypeScript,
-		name: 'Typescript'
-	}),
-	s({
-		slug: 'css',
-		color: 'blue',
-		description:
-			'',
-		logo: Assets.CSS,
-		name: 'CSS'
-	}),
-	s({
-		slug: 'html',
-		color: 'orange',
-		description:
-			'',
-		logo: Assets.HTML,
-		name: 'HTML'
 	}),
 	// s({
 	// 	slug: 'sass',

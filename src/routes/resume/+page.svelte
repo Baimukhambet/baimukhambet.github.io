@@ -1,9 +1,10 @@
 <script>
 	import Chip from '$lib/components/Chip/Chip.svelte';
 	import CommonPage from '$lib/components/CommonPage.svelte';
-	import { RESUME } from '$lib/params';
+	import { RESUME, TRANSCRIPT } from '$lib/params';
 
 	const { item, title } = RESUME;
+	// const { item, title } = TRANSCRIPT;
 </script>
 
 <CommonPage {title}>
