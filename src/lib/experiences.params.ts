@@ -33,21 +33,21 @@ const MY_EXPERIENCES: Array<Experience> = [
 		logo: Assets.Unknown,
 		shortDescription: ''
 	},
-	// {
-	// 	slug: 'software-freelance-junior',
-	// 	company: 'Self-employed',
-	// 	description: 'Creating awesome applications for customers.',
-	// 	contract: ContractType.Freelance,
-	// 	type: 'Software Development',
-	// 	location: 'Home',
-	// 	period: { from: new Date(2022, 0, 1), to: new Date() },
-	// 	skills: getSkills('css', 'html', 'js'),
-	// 	name: 'Junior Freelancer',
-	// 	color: '#ffffff',
-	// 	links: [],
-	// 	logo: Assets.Unknown,
-	// 	shortDescription: ''
-	// }
+	{
+		slug: 'internship',
+		company: 'One Tech',
+		description: 'iOS Intern in One Tech',
+		contract: ContractType.Internship,
+		type: 'Internship',
+		location: 'Home',
+		period: { from: new Date(2024, 1, 1) },
+		skills: getSkills('swift'),
+		name: 'One Tech iOS Intern',
+		color: '#ffffff',
+		links: [],
+		logo: Assets.Swift,
+		shortDescription: ''
+	},
 ];
 
 export default MY_EXPERIENCES;
